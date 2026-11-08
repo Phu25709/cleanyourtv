@@ -1,9 +1,28 @@
 # CleanYourTV universal launcher
 
-APK release: `dist/cleanyourtv-launcher-universal.apk`.
+APK launcher cho Android TV / Google TV box, có trang thiết lập lần đầu để nhập tên box và chọn tỉnh/thành cho widget thời tiết và radar.
 
-Cài APK trên TV box mới sẽ mở trang thiết lập lần đầu: nhập tên box và chọn tỉnh/thành. Tọa độ được lưu cục bộ để widget dự báo và radar dùng đúng vị trí. Không cần tài khoản hoặc GPS.
+## Tải APK
+
+- [Tải trực tiếp qua CDN GitHub](https://github.com/Phu25709/cleanyourtv/releases/download/v1.0.0-universal/cleanyourtv-launcher-universal.apk)
+- [Trang release](https://github.com/Phu25709/cleanyourtv/releases/tag/v1.0.0-universal)
+
+## Cài bằng Downloader trên TV
+
+Nhập mã **6116728** vào ứng dụng Downloader.
+
+Mã AFTVnews này trỏ tới APK release ở trên. Short URL: [aftv.news/6116728](https://aftv.news/6116728)
+
+## Cài bằng ADB
 
 ```powershell
-adb install -r dist/cleanyourtv-launcher-universal.apk
+adb install -r cleanyourtv-launcher-universal.apk
+```
+
+Sau khi cài trên TV box mới, launcher sẽ mở trang thiết lập: nhập tên hiển thị và chọn tỉnh/thành. Tọa độ được lưu cục bộ trên từng box, không cần tài khoản hoặc GPS.
+
+SHA-256 APK:
+
+```
+b61b78b2aac23cebfacf732a2c6148bb2183e1265c4ea2f458cd7bfd8162220a
 ```
